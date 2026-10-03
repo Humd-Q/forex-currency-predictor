@@ -9,6 +9,7 @@ An end-to-end forecasting project for the 22 foreign-exchange series in `data/Fo
 - Selects the lowest-RMSE model per currency, retrains it on all observations, and saves it in `models/`.
 - Serves saved models through Streamlit; the app never retrains during a request, for speed and efficiency.
 
+## Running Instructions: (Run INSIDE THE FOLDER)
 ## Run locally:
 
 ```powershell
